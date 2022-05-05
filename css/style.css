@@ -1,0 +1,74 @@
+.container-primary {
+  max-width: 1177px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 100 px;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul a {
+  margin-right: 35px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0d0e43;
+  text-decoration: none;
+}
+.navbar ul a:hover {
+  color: #fb2e86;
+}
+.search {
+  background-color: #fb2e86;
+}
+.container-search1 {
+  border: 2px solid #e7e6ef;
+}
+.sb {
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #101750;
+}
+.sb {
+  margin-bottom: 9px;
+  margin-left: 175px;
+}
+.sec-navbar {
+  margin-left: 175px;
+}
+.sec-navbar a {
+  text-decoration: none;
+}
+.sec-navbar :hover {
+  color: #fb2e86;
+}
+
+.container-sidebar {
+  background-color: #f6f5ff;
+  margin-top: 25px;
+  width: 1920px;
+  height: 286px;
+  left: 0px;
+  top: 125px;
+  display: flex;
+  align-items: center;
+}
+.text-page .h2-page {
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #151875;
+}
