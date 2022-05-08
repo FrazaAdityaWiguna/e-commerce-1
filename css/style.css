@@ -32,43 +32,234 @@
 .container-search1 {
   border: 2px solid #e7e6ef;
 }
-.sb {
-  font-family: "Josefin Sans";
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-
-  color: #101750;
-}
-.sb {
-  margin-bottom: 9px;
-  margin-left: 175px;
-}
-.sec-navbar {
-  margin-left: 175px;
-}
-.sec-navbar a {
-  text-decoration: none;
-}
-.sec-navbar :hover {
-  color: #fb2e86;
-}
-
 .container-sidebar {
-  background-color: #f6f5ff;
-  margin-top: 25px;
-  width: 1920px;
-  height: 286px;
+  max-width: 1277;
+  width: 1800px;
+  height: 764px;
   left: 0px;
-  top: 125px;
+  top: 122px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f0ff;
+  margin-top: 30px;
+}
+.hang-lamp {
+  position: absolute;
+  width: 377px;
+  height: 377px;
+  left: 40px;
+  top: 107px;
+}
+.container-furnt1 {
   display: flex;
   align-items: center;
+  margin: 264px 0px 300px 280px;
+  /* border: 1px solid; */
+  justify-content: center;
 }
-.h2-page {
+.furnt {
+  width: 230px;
+  height: 28px;
+  left: 378px;
+  top: 325px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fb2e86;
+}
+.text-furnt {
   font-family: "Josefin Sans";
   font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 53px;
+  line-height: 82px;
+  letter-spacing: 0.015em;
+  margin-top: 12px;
+  color: #000000;
+}
+.lorem {
+  margin-top: 12px;
+  margin-bottom: 27px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #8a8fb9;
+}
+.button-shop a {
+  display: flex;
+  justify-content: center;
+  /* background-color: #fb2e86; */
+  text-decoration: none;
+}
+.button-shop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 163px;
+  height: 50px;
+  left: 375px;
+  top: 600px;
+  background-color: #fb2e86;
+  border-radius: 5px;
+  color: #fff;
+}
+.button-shop a :hover {
+  background-color: #fff;
+  border: 2px solid #fb2e86;
+  color: #fb2e86;
+}
+.button-shop:hover {
+  background-color: #fff;
+  border: 2px solid #fb2e86;
+  color: #fb2e86;
+}
+.shoping {
+  color: #fff;
+}
+.shoping:hover {
+  color: #fb2e86;
+}
+.logo-prod {
+  width: 529px;
+  height: 629px;
+  top: 221px;
+  /* border: 1px solid; */
+  padding: 0px 0px;
+  display: flex;
+  margin-right: 300px;
+  border: 1px #8a8fb9;
+  border-radius: 10000px;
+  background-color: #8a8fb9;
+}
+/* text feature */
+.text-featur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 129px;
+  margin-bottom: 48px;
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+
+  color: #1a0b5b;
+}
+.container-sailing {
+  display: flex;
+  justify-content: space-around;
+}
+.container-troll {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px;
+}
+.loving {
+  margin-right: 7px;
+  margin-left: 5px;
+}
+.container-iconprod {
+  width: 245px;
+  height: 245px;
+  left: 68px;
+  top: 25px;
+}
+.tiga {
+  margin-left: 50px;
+}
+.name-prod {
+  /* font-family: "Lato"; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fb2e86;
+  display: flex;
+  justify-content: center;
+}
+.prod-price {
+}
+.prod-price:hover {
+  background-color: #8a8fb9;
+  color: #f2f0ff;
+}
+.container-caps {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.code-prod {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 13px;
+}
+.price {
+  display: flex;
+  justify-content: center;
+}
+.container-pink {
+  display: flex;
+  justify-content: center;
+  margin-top: 53px;
+}
+.text-featur p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 129px;
+  margin-bottom: 48px;
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+
+  color: #1a0b5b;
+}
+.container-newarival {
+  display: flex;
+  justify-content: space-around;
+}
+.container-newarival a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
   color: #151875;
+  margin-right: 58px;
+  margin-left: 58px;
+}
+.container-newarival a:hover {
+  color: #fb2e86;
+  text-decoration: underline;
+}
+.arrival-prod {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  padding-right: 10px;
+  padding-left: 15px;
+}
+.container-like {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  height: 30px;
+  left: 15px;
+  border: 1px solid;
+}
+.container-arivalsail {
+}
+.chair-arival {
+  width: 245px;
+  height: 245px;
+  left: 68px;
+  top: 25px;
+}
+.comfort {
+  display: flex;
+  justify-content: space-between;
 }
