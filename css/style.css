@@ -6,7 +6,7 @@
 .container-navbar {
   display: flex;
   justify-content: space-between;
-  height: 100 px;
+  height: 100px;
   align-items: center;
 }
 .navbar ul {
@@ -32,31 +32,20 @@
 .container-search1 {
   border: 2px solid #e7e6ef;
 }
+.container-fix-bg {
+  width: 100%;
+  background: #f2f0ff;
+}
 .container-sidebar {
-  max-width: 1277;
-  width: 1800px;
-  height: 764px;
-  left: 0px;
-  top: 122px;
+  width: 100%;
+  min-height: 764px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #f2f0ff;
   margin-top: 30px;
 }
 .hang-lamp {
-  position: absolute;
-  width: 377px;
-  height: 377px;
-  left: 40px;
-  top: 107px;
-}
-.container-furnt1 {
-  display: flex;
-  align-items: center;
-  margin: 264px 0px 300px 280px;
-  /* border: 1px solid; */
-  justify-content: center;
+  max-width: 377px;
 }
 .furnt {
   width: 230px;
