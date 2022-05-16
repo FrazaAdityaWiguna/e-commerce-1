@@ -14,8 +14,25 @@
   align-items: center;
 }
 
+.utils.container-page-title {
+  min-height: 286px;
+  background: #f6f5ff;
+}
+.utils.container-page-title h2 {
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #101750;
+}
+
 .utils.container-nav ul li a {
   text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+.utils.container-nav ul li :hover {
+  color: #fb2e86;
+  transition: all 0.1s ease-in-out;
 }
 
 .utils.top-menu {
@@ -76,4 +93,21 @@
 /* Background */
 .bg-red {
   background: red;
+}
+
+/* width */
+.w-100 {
+  width: 100%;
+}
+
+/* breadcrumb */
+.breadcrumb {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.active-breadcrumb {
+  color: #fb2e86;
 }
